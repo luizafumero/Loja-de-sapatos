@@ -29,7 +29,7 @@ h3 {
 }
 
 
-/* Esqueleto da página */
+/* Esqueleto */
 
 header {
     background-color: #222;
@@ -80,4 +80,37 @@ footer {
     color: white;
     text-align: center;
     padding: 20px;
+}
+
+
+/* Classe compartilhada */
+
+.produto {
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 10px;
+    background-color: white;
+}
+
+
+/* Variantes */
+
+.destaque {
+    border: 2px solid #b8860b;
+}
+
+.oferta {
+    border: 2px solid #c0392b;
+}
+
+
+/* Imagem de fundo */
+
+#inicio {
+    min-height: 300px;
+    padding: 50px;
+    background-image: url("https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=1200&q=80");
+    background-size: cover;
+    background-position: center;
+    color: white;
 }
