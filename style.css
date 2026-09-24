@@ -1,4 +1,4 @@
-/* Reset universal */
+/*RESET UNIVERSAL*/
 
 * {
     margin: 0;
@@ -7,13 +7,19 @@
 }
 
 
-/* Tipografia */
+/*TIPOGRAFIA E BASE*/
 
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: #333;
     background-color: #f5f5f5;
     line-height: 1.6;
+}
+
+h1,
+h2,
+h3 {
+    color: white;
 }
 
 h1 {
@@ -29,7 +35,7 @@ h3 {
 }
 
 
-/* Esqueleto */
+/*ESQUELETO DA PÁGINA*/
 
 header {
     background-color: #222;
@@ -83,7 +89,7 @@ footer {
 }
 
 
-/* Classe compartilhada */
+/*COMPONENTES*/
 
 .produto {
     padding: 20px;
@@ -91,9 +97,6 @@ footer {
     border-radius: 10px;
     background-color: white;
 }
-
-
-/* Variantes */
 
 .destaque {
     border: 2px solid #b8860b;
@@ -104,7 +107,7 @@ footer {
 }
 
 
-/* Imagem de fundo */
+/*SEÇÃO ESPECÍFICA*/
 
 #inicio {
     min-height: 300px;
@@ -112,11 +115,5 @@ footer {
     background-image: url("https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=1200&q=80");
     background-size: cover;
     background-position: center;
-    color: white;
-}
-
-h1,
-h2,
-h3 {
     color: white;
 }
